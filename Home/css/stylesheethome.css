@@ -6,7 +6,11 @@ body{background-color: #333333;}
 
 #right{float:right; width:40%; margin-right:-30px;}
 
-.taskbar{border-style:solid; border-width:1px; border-color: #4586c3; background-color: #4586c3;
+#razer {width: 20%}
+.taskbar{border-style:solid;
+         border-width:1px;
+         border-color: #4586c3;
+         background-color: #4586c3;
          width:500px;
          height:40px;}
 #footer{
