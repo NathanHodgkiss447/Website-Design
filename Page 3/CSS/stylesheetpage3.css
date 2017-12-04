@@ -1,9 +1,50 @@
-body{background-color: #4D4D4D;}
+body{background-color: #333333;}
 body{font-family: 'Work Sans', sans-serif;}
 
-.taskbar{border-style:solid; border-width:1px; border-color: #4586c3; background-color: #4586c3;
-  width:500px;
-height:40px;}
+#header{color: white;
+  text-align: center;
+  clear: both;
+  font-style: italic;
+}
+
+#footer{
+        clear:both;
+        text-align: center;
+        color: white;
+        background-color: #4586c3;
+        height: 35px;
+        border: 1px solid #4586c3 ;}
+
+
+#footer img{
+      width: 15%;
+      height:15%;
+      text-align: right;
+}
+
+.left{
+     width: 30%;
+     float: left;
+}
+
+.right{
+    width: 70%;
+    float: right;
+}
+
+.product{
+    color: white;
+    text-align: center;
+    clear:both;
+}
+
+.taskbar{border-style:solid;
+    border-width:1px;
+    border-color: #4586c3;
+    background-color: #4586c3;
+    width:500px;
+    height:40px;}
+
 h1{color:white; text-align: center;}
 
 a{color:white; text-decoration: none;}
