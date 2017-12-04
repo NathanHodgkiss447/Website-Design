@@ -1,5 +1,9 @@
 body{background-color: #4D4D4D;}
+body{font-family: 'Work Sans', sans-serif;}
 
 .taskbar{border-style:solid; border-width:1px; border-color: #4586c3; background-color: #4586c3;
   width:500px;
-height:30px;}
+height:40px;}
+h1{color:white; text-align: center;}
+
+a{color:white; text-decoration: none;}

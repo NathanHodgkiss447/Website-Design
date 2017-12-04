@@ -1,5 +1,10 @@
 body{background-color: #333333;}
+a{color:white; text-decoration: none;}
+p{color:white;}
+h1{color:white; text-align: center;}
 
+
+body{font-family: 'Work Sans', sans-serif;}
 
 #left{float: left; width:60%;
       font-size:20px;}
@@ -7,6 +12,7 @@ body{background-color: #333333;}
 #right{float:right; width:40%; margin-right:-30px;}
 
 .picture {width:20%;}
+
 .taskbar{border-style:solid;
          border-width:1px;
          border-color: #4586c3;
@@ -22,11 +28,3 @@ body{background-color: #333333;}
         border: 1px solid #4586c3 ;
 
 }
-
-
-a{color:white; text-decoration: none;}
-p{color:white;}
-h1{color:white; text-align: center;}
-
-
-body{font-family: 'Work Sans', sans-serif;}
