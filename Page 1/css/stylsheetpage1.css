@@ -1,5 +1,6 @@
 body{background-color: #4D4D4D;
     font-family: "Work Sans", sans-serif;
+    text-decoration:none;
 }
 
 
@@ -9,6 +10,18 @@ height:40px;}
 h1{color: white; text-align:center;}
 a{color:white; text-decoration:none;}
 
-h2{color:white; text-align:center;font-size:180%; text-decoration: underline;}
+#header{color:white; text-align:center; font-size:180%; clear: both;}
 
-#question{color:white; text-align:cennter; font-size:50%;text-decoration:none;}
+.left{width:30%; float: left;}
+
+.right{width:70%;float: right; font-size:110%; color:white;}
+
+#footer{
+        clear:both;
+        text-align: center;
+        color: white;
+        background-color: #4586c3;
+        height: 35px;
+        border: 1px solid #4586c3 ;}
+
+  .names{ color:white;clear: both; font-size:80%;}
