@@ -14,9 +14,9 @@ a{color:white; text-decoration:none;}
 
 .left{width:30%; float: left;}
 
-.left img{width:60%; padding-left:7%; height:60%;}
+.left img{width:50%; padding-left:1%; height:60%;}
 
-.right{width:70%;float: right; font-size:110%; color:white;}
+.right{width:70%;float: right; font-size:140%; color:white; font-style:italic;}
 
 
 #footer{
@@ -29,6 +29,7 @@ a{color:white; text-decoration:none;}
         padding-right: 1%;
         padding-top: 0.75%;
          }
+<<<<<<< HEAD
 
 
 #footer img{
@@ -47,5 +48,17 @@ a{color:white; text-decoration:none;}
 
 
 
+=======
+>>>>>>> cea4d8df01080ec13e1e1266ba5b6198a501e739
 
-  .names{ color:white;clear: both; font-size:80%;}
+
+#footer img{
+      width: ;
+      height: 100%;
+      text-align: center;
+      float: right;
+      padding-bottom: 0.25%;
+
+}
+
+  .names{ color:white;clear: both; font-size:80%; font-style: oblique;}
