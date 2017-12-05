@@ -25,6 +25,19 @@ a{color:white; text-decoration:none;}
         color: white;
         background-color: #4586c3;
         height: 35px;
-        border: 1px solid #4586c3 ;}
+        border: 1px solid #4586c3;
+        padding-right: 1%;
+        padding-top: 0.75%;
+         }
+
+
+#footer img{
+      width: ;
+      height: 100%;
+      text-align: center;
+      float: right;
+      padding-bottom: 0.25%;
+
+}
 
   .names{ color:white;clear: both; font-size:80%; font-style: oblique;}

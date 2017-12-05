@@ -22,3 +22,24 @@ a{color:white; text-decoration: none;}
 .product{clear:both;
 text-align: center;
 color: white;}
+
+#footer{
+        clear:both;
+        text-align: center;
+        color: white;
+        background-color: #4586c3;
+        height: 35px;
+        border: 1px solid #4586c3;
+        padding-right: 1%;
+        padding-top: 0.75%;
+         }
+
+
+#footer img{
+      width: ;
+      height: 100%;
+      text-align: center;
+      float: right;
+      padding-bottom: 0.25%;
+
+}
