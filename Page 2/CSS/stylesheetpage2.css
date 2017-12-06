@@ -12,16 +12,38 @@ height:40px;}
 h1{color:white; text-align: center;}
 a{color:white; text-decoration: none;}
 
-#header{font-style:italic;}
 
-.left{float:left; width:30%; padding-right:3.5%;}
-.left img{padding-left:1%;width:100%;}
+#header{color: white;
+  text-align: center;
+  clear: both;
+  font-style: italic;
+  font-size:75%;
+}
 
-.right{width:70%;}
+.left{padding-left:1%;
+  float:left;
+   width:30%;
+  padding-right:3.5%;}
+
+.left img{width:75%;}
+
+.right{width:65%;
+  float:right;
+   color:white;}
 
 .product{clear:both;
 text-align: center;
 color: white;}
+
+
+
+
+         #review{
+           clear:both;
+         color:white;
+       padding-left:3%;
+      padding-bottom:3.5%;}
+
 
 #footer{
         clear:both;

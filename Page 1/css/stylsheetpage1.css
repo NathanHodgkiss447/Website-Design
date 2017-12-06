@@ -19,6 +19,12 @@ a{color:white; text-decoration:none;}
 .right{width:70%;float: right; font-size:140%; color:white; font-style:italic;}
 
 
+#review{clear:both;
+color:white;
+padding-left:3%;
+padding-bottom:3.5%;}
+
+
 #footer{
         clear:both;
         text-align: center;
