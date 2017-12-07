@@ -112,7 +112,7 @@ a{color: #4586c3; text-decoration: none;}
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
   body{
     font-size: 12px;
   }
