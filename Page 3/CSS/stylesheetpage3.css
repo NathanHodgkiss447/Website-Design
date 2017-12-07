@@ -12,13 +12,16 @@ ul{
   text-align: center;
   clear: both;
   font-style: italic;
+
 }
 
 
          #review{clear:both;
+           text-align: center;
          color:white;
-       padding-left:3%;
-      padding-bottom:3.5%;}
+
+      padding-bottom:3%;
+    padding-top:2%;}
 
 
 #footer{
@@ -29,7 +32,8 @@ ul{
         height: 35px;
         border: 1px solid #4586c3;
         padding-right: 1%;
-        padding-top: 0.75%;
+        padding-top: 0.70%;
+        padding-bottom:0.3%;
          }
 
 
@@ -38,7 +42,7 @@ ul{
       height: 100%;
       text-align: center;
       float: right;
-      padding-bottom: 0.25%;
+
 
 }
 
@@ -52,7 +56,7 @@ ul{
      float: left;
 }
 
-.left img{width:75%;}
+.left img{width:90%;}
 
 .right{width:65%;
   float:right;
@@ -62,6 +66,7 @@ ul{
     color: white;
     text-align: center;
     clear:both;
+    padding-top:3%;
 }
 
 .taskbar{border-style:solid;
@@ -71,9 +76,11 @@ ul{
     width:500px;
     height:40px;}
 
+    .taskbar a{color:white; text-decoration: none;}
+
 h1{color:white; text-align: center;}
 
-a{color:white; text-decoration: none;}
+a{color: #4586c3; text-decoration: none;}
 
 
 

@@ -5,21 +5,24 @@
 
 		<title> E-Reviews </title>
 <meta name="viewpoint" content="width=devise-width, initial-scale=1.0"/>
+
 <link href="css/stylesheethome.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 
+
+<script src="javascript/home.js"></script>
 
 <script type="text/javascript">
 alert("Welcome to E-Reviews!!");
 </script>
 
-
 	</head>
 
 	<body>
-
+<div id="name">
+	<img src="" alt="">
 <h1>E-reviews</h1>
-
+</div>
 	<table>
 </tr>
 	<th class="taskbar">Home</th>
@@ -47,11 +50,11 @@ alert("Welcome to E-Reviews!!");
 
 	 </p>
 <p>
-		Our recommendations are based on your feedback and our own opinion, there is a feedback section on both the laptops and phones pages where you can write about products and give them a rating out of five.
+		Our recommendations are based on your feedback and our own opinion, there is a feedback section on both the laptops and phones pages where you can write about products and express your opinion freely .
 	</p>
 
 
-	<p> We encourage all of our users to vote on our reviews, as this helps us decide what kind of content our users want! </p>
+	<p> We encourage all of our users to give us and our recommendations a review, as this helps us decide what kind of content our users want! </p>
 	</p>
 
 	<p> &nbsp; </p>
@@ -70,14 +73,15 @@ alert("Welcome to E-Reviews!!");
 
 
 <div id="review">
-<form action="" method="post">
-	  E-mail: <input type="text" name="e-mail" value="Type email here">
+<form  name="myForm" action="mailto:piyush.sharma1078@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+	  E-mail: <input type="text" name="email">
 	  <br><br>
-	  Review:<br><textarea name="review" rows="10" cols="30">Type review Here
+	  Review:<br><textarea name="comment" rows="10" cols="30">
 	</textarea>
 	  <br><br>
 	  <input type="submit" value="Send">
-		
+
+
 </form>
 </div>
 

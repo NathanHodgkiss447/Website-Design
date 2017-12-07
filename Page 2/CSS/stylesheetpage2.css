@@ -9,8 +9,10 @@ body{font-family: 'Work Sans', sans-serif;}
   width:500px;
 height:40px;}
 
+.taskbar a{color:white; text-decoration:none;}
+
 h1{color:white; text-align: center;}
-a{color:white; text-decoration: none;}
+a{color:#4586c3; text-decoration: none;}
 
 
 #header{color: white;
@@ -33,16 +35,17 @@ a{color:white; text-decoration: none;}
 
 .product{clear:both;
 text-align: center;
-color: white;}
+color: white;
+padding-top:3%;}
 
 
 
 
-         #review{
+         #review{padding-top:2%;
+           text-align:center;
            clear:both;
          color:white;
-       padding-left:3%;
-      padding-bottom:3.5%;}
+      padding-bottom:3%;}
 
 
 #footer{
@@ -53,16 +56,16 @@ color: white;}
         height: 35px;
         border: 1px solid #4586c3;
         padding-right: 1%;
-        padding-top: 0.75%;
+        padding-top: 0.70%;
+        padding-bottom:0.3%;
          }
 
 
 #footer img{
-      width: ;
       height: 100%;
       text-align: center;
       float: right;
-      padding-bottom: 0.25%;
+
 
 }
 
