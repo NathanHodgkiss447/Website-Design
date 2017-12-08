@@ -8,6 +8,23 @@ ul{
 
 body{font-family: 'Work Sans', sans-serif;}
 
+
+#image {
+      float: left;
+      width: 30%;
+
+
+}
+
+#image img{
+       width: 10%;
+}
+
+#name{
+    width: 70%;
+    clear: both;
+}
+
 #left{float: left;
       width:60%;
       font-size:20px;
