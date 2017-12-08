@@ -69,7 +69,6 @@ ul{
 
 
 #footer img{
-      width: ;
       height: 100%;
       text-align: center;
       float: right;
@@ -117,11 +116,6 @@ a{color: #4586c3; text-decoration: none;}
 
 
 @media screen and (max-width:478px) {
-          body{
-               font-size: 6px;
-          }
-
-
           nav{
              width: 100%;
              margin-bottom: 10px;
@@ -136,7 +130,7 @@ a{color: #4586c3; text-decoration: none;}
 
           nav ul li{
             text-align: center;
-            margin-left: 0 auto;
+
             width: 100%;
 
           }
@@ -169,7 +163,7 @@ a{color: #4586c3; text-decoration: none;}
 
   nav ul li{
     text-align: center;
-    margin-left: 0 auto;
+  
     width: 100%;
 
   }
