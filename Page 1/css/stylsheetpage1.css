@@ -7,8 +7,40 @@ body{background-color: #333333;
 .taskbar{border-style:solid; border-width:1px; border-color: #4586c3; background-color: #4586c3;
   width:500px;
 height:40px;}
-h1{color: white; text-align:center;}
-a{color:white; text-decoration:none;}
+h1{color: white; text-align:center;
+  padding-right:45%;
+  padding-top:2%;}
+
+a{color:white; text-decoration:none;
+  }
+
+
+  #taskbar{clear:both;}
+
+
+  #image {padding-top:2%;
+    padding-left: 2%;
+        float: left;
+        width: 30%;
+      padding-bottom:1%;
+
+
+  }
+
+  #image img{
+         width: 15%;
+  }
+
+  #name{
+    font-size:110%;
+      width: 60%;
+    float: right;
+    text-align:center;
+    padding-right:5%;
+  }
+
+
+
 
 #header{color:white; text-align:center; font-size:180%; clear: both;}
 
@@ -49,15 +81,6 @@ padding-bottom:3.5%;}
 
 
 
-
-
-
-
-
-=======
->>>>>>> cea4d8df01080ec13e1e1266ba5b6198a501e739
-
-
 #footer img{
       width: ;
       height: 100%;
@@ -67,7 +90,8 @@ padding-bottom:3.5%;}
 
 }
 
-  .names{ color:white;clear: both; font-size:80%; font-style: oblique;}
+  .names{ color:white;clear: both; font-size:80%; font-style: oblique;
+  padding-left:31%;}
 
 
 
@@ -95,33 +119,5 @@ padding-bottom:3.5%;}
               width: 100%;
 
             }
-
-  }
-
-  @media screen and (max-width:700px) {
-    body{
-      font-size: 12px;
-    }
-
-
-    nav{
-       width: 100%;
-       margin-bottom: 10px;
-    }
-
-
-    nav ul{
-       list-style: none;
-       margin: 0 auto;
-       padding-left: 0;
-    }
-
-    nav ul li{
-      text-align: center;
-      margin-left: 0 auto;
-      width: 100%;
-
-    }
-
 
   }

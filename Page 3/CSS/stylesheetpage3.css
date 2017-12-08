@@ -4,6 +4,37 @@ p{
   color: white;
 }
 
+#taskbar{clear:both;}
+
+
+#image {padding-top:2%;
+  padding-left: 2%;
+      float: left;
+      width: 30%;
+    padding-bottom:1%;
+
+
+}
+
+h1{color:white; text-align: center;
+  padding-right:45%;
+  padding-top:2%;}
+
+
+#image img{
+       width: 15%;
+}
+
+#name{
+  font-size:110%;
+    width: 60%;
+  float: right;
+  text-align:center;
+  padding-right:5%;
+}
+
+
+
 ul{
   color: white;
 }

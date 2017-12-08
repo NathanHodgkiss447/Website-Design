@@ -1,6 +1,5 @@
-body{background-color:  #333333;}
-
-body{font-family: 'Work Sans', sans-serif;}
+body{background-color:  #333333;
+font-family: 'Work Sans', sans-serif;}
 
 .taskbar{border-style:solid;
    border-width:1px;
@@ -11,15 +10,45 @@ height:40px;}
 
 .taskbar a{color:white; text-decoration:none;}
 
-h1{color:white; text-align: center;}
+h1{color:white; text-align: center;
+  padding-right:45%;
+  padding-top:2%;}
+
+
 a{color:#4586c3; text-decoration: none;}
+
+
+  #taskbar{clear:both;}
+
+
+  #image {padding-top:2%;
+    padding-left: 2%;
+        float: left;
+        width: 30%;
+      padding-bottom:1%;
+
+
+  }
+
+  #image img{
+         width: 15%;
+  }
+
+  #name{
+    font-size:110%;
+      width: 60%;
+    float: right;
+    text-align:center;
+    padding-right:5%;
+  }
+
 
 
 #header{color: white;
   text-align: center;
   clear: both;
   font-style: italic;
-  font-size:75%;
+  font-size:85%;
 }
 
 .left{padding-left:1%;
