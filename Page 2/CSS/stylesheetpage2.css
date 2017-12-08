@@ -48,8 +48,10 @@ a{color:#4586c3; text-decoration: none;}
   text-align: center;
   clear: both;
   font-style: italic;
-  font-size:85%;
+  font-size:90%;
 }
+
+
 
 .left{padding-left:1%;
   float:left;
@@ -102,7 +104,7 @@ padding-top:3%;}
 
 @media screen and (max-width:478px) {
           body{
-               font-size: 6px;
+               font-size: px;
           }
 
 
@@ -121,8 +123,9 @@ padding-top:3%;}
           nav ul li{
             text-align: center;
             margin-left: 0 auto;
-            width: 100%;
-
+            width: 100%;}
+#image img{
+  width:27%;
           }
 
 }
@@ -131,6 +134,9 @@ padding-top:3%;}
   body{
     font-size: 12px;
   }
+  #image img{
+    width:30%;
+            }
 
 
   nav{
@@ -149,8 +155,6 @@ padding-top:3%;}
     text-align: center;
     margin-left: 0 auto;
     width: 100%;
-
-  }
 
 
 }

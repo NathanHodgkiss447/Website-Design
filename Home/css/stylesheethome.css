@@ -89,22 +89,38 @@ body{font-family: 'Work Sans', sans-serif;}
          }
 
 
+<!--media-->
+@media screen and (max-width:980px) {
+#left{font-size:15px;}
+
+#taskbar{font-size:15px;}
+#footer{font-size: 15px;
+padding-top:4%;}
+
+#right img{width:90%;}
+
+#image img{width:30%;}
+
+#name{font-size:70%;}
+#review{font-size:15px;}
+
+}/*--couldn't get this working--*/
 
 
-         @media screen and (max-width:600px) {
-        #left{font-size:10px;}
+         @media screen and (max-width:800px) {
+        #left{font-size:11px;}
 
-        #taskbar{font-size:10px;}
-        #footer{font-size: 10px;
+        #taskbar{font-size:11px;}
+        #footer{font-size: 11px;
         padding-top:4%;}
 
-#taskbar img{width:50%;}
-#review{font-size:10px;}
+        #right img{width:90%;}
 
+#image img{width:30%;}
 
+#name{font-size:70%;}
+#review{font-size:11px;}
 
+}
 
-
-                   }
-
-         }
+/*--couldn't get one of the media queries working--*/
